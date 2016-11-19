@@ -18,7 +18,7 @@ AppStore からもインストールが可能ですが、Lazuride iOS のビル�
 
 ## Lazuride iOS のソースコードを展開
 メールにて添付した Lazuride iOS を展開してください。[The Unarchiver](https://itunes.apple.com/jp/app/the-unarchiver/id425424353?mt=12) などを利用すると展開できます。  
-※ git の organization に invite する予定でしたが、パッケージ管理ツールや依存パッケージのインストールなどフォローが必要になりそうな手順ががあったので、依存パッケージを含める形で Zip ファイルお渡しするようにしました。(git に依存パッケージを載せるのは避けたかったので...)
+※ git の organization に invite する予定でしたが、パッケージ管理ツールや依存パッケージのインストールなどフォローが必要になりそうな手順があったので、依存パッケージを含める形で Zip ファイルをお渡しするようにしました。(git に依存パッケージを載せるのは避けたかったので...)
 
 ## Xcode で Lazuride iOS を開く
 Lazuride iOS 展開しディレクトリを開くと、 `Lazuride.xcodeproj` ファイルがあるので Xcode で開いてください。  
@@ -51,7 +51,7 @@ Lazuride iOS 展開しディレクトリを開くと、 `Lazuride.xcodeproj` フ
 ⑤ をクリックするとインストール先を選択できます。**Device** の覧から、接続した iPhone を選択し、**▷** のボタンをクリックしビルドを実行します。このとき、iPhone がロック状態だと自動でアプリが立ち上がらないので、ロックを解除しておいて下さい。  
 
 おそらく初回のインストールでは起動しないと思います。「信頼された開発元」として信頼する必要があるので iPhone の **設定** を開いてください。  
-「設定 > 一般 > プロファイルとデバイス管理」へ進み、**デベロッパAPP** の覧の **lazuride@gmail.com** を選択して下さい。**"lazuride@gmail.com"を信頼** をタップすると、**「"iPhone Developer: lazuride@gmail.com (9TYPE9HVWD)"のAppをこのiPhoneで信頼」** というモーダルが表示されるので、信頼をタップして開発元を信頼します。
+「設定 > 一般 > プロファイルとデバイス管理」へ進み、**デベロッパAPP** の覧の **lazuride＠gmail.com** を選択して下さい。**"lazuride＠gmail.com"を信頼** をタップすると、**「"iPhone Developer: lazuride＠gmail.com (9TYPE9HVWD)"のAppをこのiPhoneで信頼」** というモーダルが表示されるので、信頼をタップして開発元を信頼します。
 ここまででインストールした Lazuride iOS を起動できるようになります。Home へ戻ってアプリをタップし動作を確認してください。
 
 # About Application
